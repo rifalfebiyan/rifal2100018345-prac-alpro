@@ -94,6 +94,7 @@ int main(){
 		else
 		{
 			cout<<"PILIH MENU DENGAN BENAR !!!!!";
+			cout<<"SILAHKAN UALNG KEMBALI";
 		}
  	}	
  	while (answer==1);
