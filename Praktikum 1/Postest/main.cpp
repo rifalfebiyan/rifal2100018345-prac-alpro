@@ -58,7 +58,7 @@ int main(){
  		if(answer==1)
  		{
 	 		system("CLS");
-		    cout << "MENU OPERASI : " << endl;
+		    cout << " PILIH MENU OPERASI : " << endl;
 		    cout << "  1. Penjumlahan" << endl;
 		    cout << "  2. Pengurangan" << endl;
 		    cout << "  3. Perkalian" << endl;
