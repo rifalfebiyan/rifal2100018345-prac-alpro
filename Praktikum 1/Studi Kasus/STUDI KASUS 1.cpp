@@ -56,6 +56,7 @@ main () {
 					cout<<endl;
 					system("pause");	
 					break;
+					
 				}
 			}
 			ofstream mantap;
