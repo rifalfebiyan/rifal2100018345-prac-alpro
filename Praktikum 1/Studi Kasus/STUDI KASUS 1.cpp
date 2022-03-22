@@ -73,6 +73,6 @@ main () {
 			}
 
 	}
-	while(choice==2);
+	while(choice==1);
 	return 0;
 	}
