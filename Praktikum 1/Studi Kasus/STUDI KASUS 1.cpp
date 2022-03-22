@@ -28,7 +28,8 @@ main () {
 			cout<<"1) Pertamax "<<endl;
 			cout<<"2) Pertalite"<<endl;
 			cin>>pilihan;
-			switch (pilihan){
+			switch (pilihan)
+			{
 				case 1 :
 					system("CLS");
 					cout<<"Nama Pelanggan         : ";
@@ -59,6 +60,7 @@ main () {
 					
 				}
 			}
+	
 			ofstream mantap;
 			cout<<"============================"<<endl;
 			cout<<"   Struk berhasil dibuat...."<<endl;
