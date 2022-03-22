@@ -9,7 +9,7 @@ main () {
 	int pilihan;
 	char nama[999];
 	char jenis[999];
-	do {
+	
 		system("CLS");
 		cout<<"\n=================================\n";
 		cout<<"          BENSIN\n";
@@ -73,6 +73,5 @@ main () {
 			}
 
 	}
-	while(choice==1);
 	return 0;
-	}
+}
