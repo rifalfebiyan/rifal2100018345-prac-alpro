@@ -35,7 +35,7 @@ main () {
 					cin>>nama;
 					cout<<"Konfirmasi nama bensin : ";
 					cin>>jenis;
-					cout<<"Masukkan banyak liter          = ";
+					cout<<"Masukkan banyak liter  : ";
 					cin>>liter;
 					total=9000*liter;
 					cout<<"Total Harga            : "<<total;
@@ -49,7 +49,7 @@ main () {
 					cin>>nama;
 					cout<<"Konfirmasi nama bensin : ";
 					cin>>jenis;
-					cout<<"Masukkan banyak liter          = ";
+					cout<<"Masukkan banyak liter  : ";
 					cin>>liter;
 					total=7000*liter;
 					cout<<"Total Harga            : "<<total;
