@@ -20,7 +20,7 @@ main () {
 		cout<<"1) Pilih jenis bensin\n";
 		cout<<"2) Keluar\n";
 		cout<<"=================================\n";
-		cout<<"Masukkan pilihan menu = \n";
+		cout<<"Masukkan pilihan menu : \n";
 		cin>>choice;
 		cout<<"=================================\n";
 		
