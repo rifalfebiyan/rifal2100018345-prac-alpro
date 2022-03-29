@@ -1,5 +1,4 @@
 #include<iostream>
-#include <iomanip>
 #include <fstream>
 using namespace std;
 
@@ -10,7 +9,7 @@ main () {
 	int pilihan;
 	char nama[999];
 	char jenis[999];
-	do {
+	
 		system("CLS");
 		cout<<"\n=================================\n";
 		cout<<"          BENSIN\n";
@@ -29,14 +28,15 @@ main () {
 			cout<<"1) Pertamax "<<endl;
 			cout<<"2) Pertalite"<<endl;
 			cin>>pilihan;
-			switch (pilihan){
+			switch (pilihan)
+			{
 				case 1 :
 					system("CLS");
 					cout<<"Nama Pelanggan         : ";
 					cin>>nama;
 					cout<<"Konfirmasi nama bensin : ";
 					cin>>jenis;
-					cout<<"Masukkan banyak liter          = ";
+					cout<<"Masukkan banyak liter  : ";
 					cin>>liter;
 					total=9000*liter;
 					cout<<"Total Harga            : "<<total;
@@ -50,15 +50,17 @@ main () {
 					cin>>nama;
 					cout<<"Konfirmasi nama bensin : ";
 					cin>>jenis;
-					cout<<"Masukkan banyak liter          = ";
+					cout<<"Masukkan banyak liter  : ";
 					cin>>liter;
 					total=7000*liter;
 					cout<<"Total Harga            : "<<total;
 					cout<<endl;
 					system("pause");	
 					break;
+					
 				}
 			}
+	
 			ofstream mantap;
 			cout<<"============================"<<endl;
 			cout<<"   Struk berhasil dibuat...."<<endl;
@@ -74,6 +76,5 @@ main () {
 			}
 
 	}
-	while(choice==2);
 	return 0;
-	}
+}
