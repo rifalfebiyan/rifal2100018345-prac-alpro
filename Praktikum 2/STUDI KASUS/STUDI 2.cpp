@@ -18,6 +18,7 @@ main(){ //main sebagai fungsi utama
 	cout<<" PILIHAN MENU : ";cin>>nomor; //output input
 	cout<<" JUMLAH : ";
 	cin>>pil;
+	
 	// mementukan pilihan dengan perulanngan
 	if (strcmp(nomor,"1")==0) { // srtcmp digunakan untuk membandingkan 2 string
 		strcpy(menu,"AYAM GEPREK"); //strcpy untuk menyalin data string mengeluarkan 
