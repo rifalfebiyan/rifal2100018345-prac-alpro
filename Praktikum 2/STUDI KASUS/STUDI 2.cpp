@@ -56,7 +56,6 @@ main(){ //main sebagai fungsi utama
 		subtotal=25000;
 	}
 	//subtotal=harga ongkir
-	//Faiz
 	cout<<" Biaya Ongkir : "<<subtotal<<endl; //output subtotal
 
 	int disong;
