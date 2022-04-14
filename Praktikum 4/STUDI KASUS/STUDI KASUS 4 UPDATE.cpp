@@ -18,7 +18,7 @@ void operasi::hitung(int uang_saku){
 		cout<<"Masukkan pengeluaran bulan ke-"<<i+1<<"    : ";cin>>out[i];
         tabungan+=uang_saku-out[i];
         total+=out[i];
-        cout<<"\nBulan Ke          : "<<i+1<<endl;	
+        cout<<"\nBulan Ke        : "<<i+1<<endl;	
         cout<<"Uang saku         : "<<uang_saku<<endl;			
         cout<<"Pengeluaran       : "<<out[i]<<endl;
 	cout<<"Total Pengeluaran : "<<total<<endl;
