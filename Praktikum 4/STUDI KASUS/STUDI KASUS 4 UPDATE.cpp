@@ -21,8 +21,8 @@ void operasi::hitung(int uang_saku){
         cout<<"\nBulan Ke          : "<<i+1<<endl;	
         cout<<"Uang saku         : "<<uang_saku<<endl;			
         cout<<"Pengeluaran       : "<<out[i]<<endl;
-		cout<<"Total Pengeluaran : "<<total<<endl;
-		cout<<"Tabungan          : "<<tabungan<<endl<<endl;                                             
+	cout<<"Total Pengeluaran : "<<total<<endl;
+	cout<<"Tabungan          : "<<tabungan<<endl<<endl;                                             
 	}
 }
 
