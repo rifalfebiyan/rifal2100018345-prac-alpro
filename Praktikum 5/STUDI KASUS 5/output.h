@@ -36,7 +36,6 @@ public:
 					p+=1;
 				}
 			}
-
 		}
 		ambil_data.close();
 	}
