@@ -36,7 +36,6 @@ public:
 					p+=1;
 				}
 			}
-
 		}
 		ambil_data.close();
 	}
@@ -49,7 +48,6 @@ public:
 		}
 		cout << "\nJumlah SKS : " << banyak_sks << endl;
 		cout << "Total Pembayaran : " << jumlah_bayar;
-
 	}
 private:
 	ifstream ambil_data;

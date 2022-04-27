@@ -12,7 +12,7 @@ public:
 			cout << "Jumlah SKS-nya : "; cin >>jumlah_sks[i];
 		}
 	}
-	void toFile(){
+	void toFile (){
 		tulis_data.open("apidata.txt");
 		tulis_data <<nama<< endl;
 		tulis_data <<nim << endl;
