@@ -22,6 +22,7 @@ class studikasus{
 		cin>>nilai_uas[i];	
 	}
 }
+	
 	void cetak(){
 	cout<<"DAFTAR NILAI MAHASISWA"<<endl;
 	cout<<"Nama Matkul : Algoritma Pemrograman"<<endl;
