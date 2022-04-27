@@ -50,6 +50,7 @@ class studikasus{
             else if ( max > rata) {
                max = rata;
            }
+		
            else {}
            cout<<endl;
            cout<<"Nilai Max = "<<max<<endl;
