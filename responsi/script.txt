@@ -1,0 +1,22 @@
+pil.1 keyboard = 2
+pil.2 Logitech = 1
+pil.3 Mousepad = 1
+
+Total item = 3
+alamat : Ketapang
+pulau : pil 2
+Si Cepat
+
+penjelasan output:
+pil.1 keyboard 700.000 x 2 = 1.400.000
+pil.2 logitect 1.200.000
+pil.3 mousepad 70.000 x 2 = 140.000
+
+total : 2.740.000
+ongkir 50.000 - 40.000 = 10.000 (min.50.000)
+biaya proteksi: 5.000
+= 2.740.000 + 10.000 + 5.000
+= 2.755.000 
+voucher Diskon toko: 10.000 
+subtotal = 2.755.000 - 10.000
+subtotal = 2.745.000
