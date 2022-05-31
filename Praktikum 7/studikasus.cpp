@@ -68,7 +68,6 @@ for(i=0;i<n;i++){
                 }
             }
         if (ada == 0)
-
             {
                 cout<<"Data Tidak ditemukan"<<endl;
             }
