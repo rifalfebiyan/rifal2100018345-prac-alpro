@@ -87,7 +87,7 @@ for(i=0;i<n;i++){
    	brg temp;
    	int n,i,b, cari, ada;
 	
-};
+}; 
 
 int main(){
 	ahoy run;
