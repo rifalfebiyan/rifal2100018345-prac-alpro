@@ -68,7 +68,6 @@ for(i=0;i<n;i++){
                 }
             }
         if (ada == 0)
-
             {
                 cout<<"Data Tidak ditemukan"<<endl;
             }
@@ -87,7 +86,7 @@ for(i=0;i<n;i++){
    	brg temp;
    	int n,i,b, cari, ada;
 	
-};
+}; 
 
 int main(){
 	ahoy run;
