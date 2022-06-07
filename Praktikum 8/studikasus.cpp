@@ -76,4 +76,3 @@ int main(){
 	run.proses();
 	run.output();
 }
-	
