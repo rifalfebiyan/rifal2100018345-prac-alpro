@@ -69,10 +69,10 @@ class array2{
 	int samsung=200000,sandisk=60000,Logitec=120000;
 	int Wd=400000, garmin=3100000, epson=2500000;
 };
+
 int main(){
 	array2 run;
 	run.input();
 	run.proses();
 	run.output();
 }
-	
