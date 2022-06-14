@@ -7,11 +7,11 @@ class ahoy{
 		void input(){
 			cout << "Angka Buku : "<<endl;
 			for (i=0; i<24; i++){
-            	cout << "Buku "<<z + 1 <<" = ";
-            	cin >> B[i];
-            	z++;
-    		}
-      cout<<endl;
+            		cout << "Buku "<<z + 1 <<" = ";
+            		cin >> B[i];
+            		z++;
+    			}
+     			 cout<<endl;
 			cout << "Buku sebelum diurutkan : ";
 			for (i=0; i<24; i++) {
 				cout << B[i] << ", ";
