@@ -1,4 +1,5 @@
 //RIFAL FEBIYAN
+//ARRIJAL FIRMANSYAH
 #include<iostream>
 using namespace std;
 class ahoy{
