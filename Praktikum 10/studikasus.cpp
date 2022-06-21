@@ -24,7 +24,6 @@ class ahoy{
 		
 		    }
 		
-	
 			cout<<"Menampilkan Data Keseluruhan"<<endl;
 		    for(int i=0; i<n; i++){
 		        cout<<"Data ke-"<<i<<endl;
