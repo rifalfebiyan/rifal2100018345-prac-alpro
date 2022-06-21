@@ -4,13 +4,13 @@ using namespace std;
 
 class ahoy{
 	public:
-			int n;
+		int n;
 		string *nama = new string[n];
-    	int *nim = new int;
+    		int *nim = new int;
     	
 		void input(){
-    		cout <<"Masukkan Jumlah Data yang di Input: ";
-    		cin >> n;
+    			cout <<"Masukkan Jumlah Data yang di Input: ";
+    			cin >> n;
 		}
 		void proses(){
 		
