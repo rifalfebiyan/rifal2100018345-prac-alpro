@@ -1,0 +1,627 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Kustomisasi Scroll Bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #062f4f;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #B82601;
+}
+/* navigasi  */
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav.sticky{
+  background: #f7f6f2;
+  padding: 13px 0;
+}
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #0E2431;
+}
+nav.sticky .navbar .logo a{
+  color: #fff;
+}
+nav .navbar .menu{
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 18px;
+  font-weight: 500;
+  color: #eee8e2;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color: #4070f4;
+}
+nav.sticky .menu a{
+  color: rgb(57, 57, 57);
+}
+nav.sticky .menu a:hover{
+  color: #0E2431;
+}
+.navbar .media-icons a{
+  color: #4070f4;
+  font-size: 18px;
+  margin: 0 6px;
+}
+nav.sticky .media-icons a{
+  color: #FFF;
+}
+
+/* home section  */
+.home{
+  height: 100vh;
+  width: 100%;
+  background: url("images/mybackground.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .teks-satu{
+  font-size: 25px;
+  color: #0E2431;
+}
+.home .teks-dua{
+  color: #d7d9da;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .teks-tiga{
+  font-size: 40px;
+  margin: 5px 0;
+  color: #B82601;
+}
+.home .teks-empat{
+  font-size: 23px;
+  margin: 5px 0;
+  color: #d7d9da;
+}
+.home .teks-lima{
+  color: #0E2431;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .button{
+  margin: 14px 0;
+}
+.home .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #062f4f;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+.home .button button:hover{
+  border-color: #0E2431;
+  background-color: #fff;
+  color: #0E2431;
+}
+
+/* About Section */
+section{
+  padding-top: 40px;
+}
+section .content{
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+.about .about-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .title span{
+  color: #0E2431;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+section .title span::before,
+section .title span::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #B82601;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-details .left{
+  width: 45%;
+}
+.about .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.about-details .right{
+  width: 55%;
+}
+section  .topic{
+  color: #0E2431;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.about-details .right p{
+  text-align: justify;
+  color: #0E2431;
+}
+section .button{
+  margin: 16px 0;
+}
+section .button-2{
+  margin: 16px 0;
+}
+section .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #B82601;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+section .button-2 button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4cba30;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  
+}
+section .button button:hover{
+  border-color: #B82601;
+  background-color: #fff;
+  color: #4070f4;
+}
+
+/*form. */
+body {
+  background: #2e2e2f;
+  font-family: sans-serif;
+}
+ 
+h2 {
+  color: #fff;
+}
+ 
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 50em;
+  background: #fff;
+  border-radius: 3px;
+}
+ 
+label {
+  font-size: 10pt;
+  color: #555;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+ 
+.tombol {
+  background: #062F4F;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
+
+/*cek ongkir */
+section{
+  padding-top: 40px;
+}
+section .content{
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+.ongkir .ongkir-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .title span{
+  color: #0E2431;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 8px;
+}
+section .title span::before,
+section .title span::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #B82601;
+  left: 0;
+  bottom: 0;
+}
+section .title span::after{
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ongkir .ongkir-details .left{
+  width: 45%;
+}
+.ongkir .left img{
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ongkir-details .right{
+  width: 55%;
+}
+section  .topic{
+  color: #0E2431;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ongkir-details .right p{
+  text-align: justify;
+  color: #0E2431;
+}
+section .button{
+  margin: 16px 0;
+}
+section .button-2{
+  margin: 16px 0;
+}
+section .button button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #B82601;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+section .button-2 button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4cba30;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  
+}
+section .button button:hover{
+  border-color: #B82601;
+  background-color: #fff;
+  color: #4070f4;
+}
+ 
+/* cek ongkir form*/
+body {
+  background: #b7c4cd;
+  font-family: sans-serif;
+}
+ 
+h2 {
+  color: #fff;
+}
+ 
+.ongkir {
+  padding: 2em;
+  margin: 2em auto;
+  width: 50em;
+  background: #fff;
+  border-radius: 1px;
+}
+ 
+label {
+  font-size: 1pt;
+  color: #555;
+}
+ 
+.tombol {
+  background: #062F4F;
+  color: #fff;
+  border: 0;
+  padding: 5px 8px;
+}
+
+ /* SKill ===========================================================================================================================*/
+ .skills{
+   background: #ced9e1;
+ }
+ .skills .content{
+   padding: 40px 0;
+ }
+ .skills .skills-details{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .skills-details .teks{
+   width: 50%;
+ }
+ .skills-details p{
+   color: #0E2431;
+   text-align: justify;
+ }
+.skills .skills-details .experience{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.skills-details .experience .num{
+  color: #0E2431;
+  font-size: 80px;
+}
+.skills-details .experience .exp{
+  color: #0E2431;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 6px;
+}
+.skills-details .boxes{
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills-details .box{
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
+.skills-details .boxes .topic{
+  font-size: 20px;
+  color: #062F4F;
+}
+.skills-details .boxes .per{
+  font-size: 60px;
+  color: #B82601;
+}
+
+/*  Services CSS */
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services .boxes .box{
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+  background: #062F4F;
+  color: #fff;
+}
+
+.icon-dua img{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #fff;
+}
+/* Kontak CSS */
+.contact{
+  background: #ced9e1;
+}
+.contact .content{
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contact .teks{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+/* Footer CSS */
+footer{
+  background: #062F4F;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .teks span{
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .teks span a{
+  font-weight: 500;
+  color: #FFF;
+}
+footer .teks span a:hover{
+  text-decoration: underline;
+}
+/* tombol scroll ke beranda */
+.scroll-button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background: #761901;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+/* Pengaturan Tampilan Pada Form */  
+div#main{
+   width:830px;
+   height:650px;
+   margin:0 auto;
+   font-family:'Segoe UI',sans-serif 
+}
+
+/* Atur Posisi, Ukuran, Serta Tampilan Pada Form */ 
+div#form{
+  text-align:center;
+  border:1px solid #ccc; 
+  width:300px; padding:0 50px 15px; 
+  margin-top:20px; box-shadow:0 0 15px; 
+  border-radius:6px; float:left } 
+
+/* Atur Heading */
+#main h1{
+   margin-top:40px
+   }
+
+/* Atur Heading Line */ 
+hr{ margin-top:-5px }
+
+/* Atur Label */ 
+label{ 
+  float:left; 
+  font-size:16px 
+}
+
+/* Atur Kolom Input Untuk Subyek Text */
+input[type="text"]
+{ width:100%; 
+  margin-top:10px; 
+  height:35px; 
+  margin-bottom:5px; 
+  padding:10px; 
+  border:1px solid #062F4F;
+}
+
+/* atur kolom input email */
+input[type="email"]
+{ width:100%; 
+  margin-top:10px; 
+  height:35px; 
+  margin-bottom:5px; 
+  padding:10px; 
+  border:1px solid #062F4F;
+}
+
+ /* Atur Kolom Textarea */
+textarea{
+  width:100%; 
+  border:1px solid #062F4F;
+  padding:10px; 
+  margin-bottom:5px; 
+  margin-top:10px; 
+  height:100px; 
+  resize:none 
+}
+
+/* mengatur ukuran logo icon */
+.logoicon img{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
